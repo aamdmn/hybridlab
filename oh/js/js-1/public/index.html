@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kamen papier noznice</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body class="bg-teal-700 text-white">
+    
+    <div class="flex flex-col justify-center align-center ">
+        <header class="flex justify-center">
+            <h1 class="text-5xl m-10 font-bold ">Kamen papier noznice</h1>
+        </header>
+        <section class="flex flex-col justify-center ">
+            <h2 class="flex justify-center text-3xl ">Pravidla hry:</h2>
+            <div class="flex justify-center text-xl m-5 ">
+                <ul>
+                    <li>Hras proti robotovy</li>
+                    <li>Hráč si vybíra kámen, papír, nebo nožice</li>
+                    <li>Ked vyhras pripocita sa ti bod</li>
+                </ul>
+            </div>
+        </section>
+
+        <div class="flex justify-center">
+            <button class="px-10 py-2 m-5 text-xl font-bold text-white rounded-xl bg-blue-600 max-w-md "onclick="Start()">Zacat hru</button>
+        </div>
+        
+        <div class="flex flex-col justify-center text-xl">
+            <p class="flex justify-center " id="human"></p>
+            <p class="flex justify-center " id="robot"></p>
+        </div>
+    </div>
+    
+    <script src="main.js"></script>
+</body>
+</html>
