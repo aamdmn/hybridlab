@@ -1,0 +1,7 @@
+{
+  "name": "ig",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue"
+}
