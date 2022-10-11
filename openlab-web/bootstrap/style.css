@@ -1,3 +1,7 @@
+.bg-mine {
+    background-color: #3597FF;
+}
+
 .nav-item a {
     font-weight: 600;
     font-size: 15px;
@@ -5,4 +9,35 @@
 
 .hero-image {
     height: 420px;
+}
+
+.yo {
+    font-size: 13px;
+}
+
+.navbar-discord-btn {
+    text-transform: uppercase;
+    background-color: rgba(152, 156, 162, 0.15);
+    border-color: rgba(152, 156, 162, 0.15);
+    color: rgba(152, 156, 162, 1);
+}
+
+.navbar-discord-btn:hover {
+    background-color: rgba(152, 156, 162, 0.15);
+
+}
+
+.cta {
+    --bs-btn-padding-y: .7rem;
+    --bs-btn-padding-x: 1rem;
+    --bs-btn-font-size: 1rem;
+    --bs-btn-bg: #3597FF;
+    --bs-btn-border-color: #3597FF;
+    --bs-btn-hover-bg: #3597FF;
+    --bs-btn-hover-border-color: #3597FF;
+}
+
+.dropdown-menu {
+    --bs-dropdown-link-hover-color: #3597FF;
+    --bs-dropdown-link-hover-bg: #fff;
 }

@@ -16,7 +16,20 @@
 
 <body>
     <header>
-        <nav class="navbar main-navbar navbar-expand-lg bg-white m-5 pt-4">
+        <section class="mt-1">
+            <div class="container align-items-center justify-content-center border-bottom d-flex">
+                <div class="d-flex my-2">
+                    <p class="yo fw-semibold m-0 me-5">Ak máš záujem študovať spolu s nami, sme tu pre teba…</p>
+                    <a type="button" class="navbar-discord-btn py-1 btn btn-sm rounded-pill fw-semibold yo">
+                        obenlab community
+                        <img src="https://openlab.sk/wp-content/themes/wp-bootstrap-starter/assets/images/discord.svg"
+                            alt="discord logo">
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <nav class="navbar main-navbar navbar-expand-lg bg-white mb-2">
             <div class="container">
                 <a href="/" class="navbar-brand">
                     <img src="https://openlab.sk/wp-content/themes/wp-bootstrap-starter/assets/images/openlab-logo.svg"
@@ -35,10 +48,10 @@
                     <div class="offcanvas-body">
                         <ul
                             class="navbar-nav justify-content-start  text-dark ms-5 align-items-center flex-grow-1 pe-3">
-                            <li class="nav-item me-lg-3">
+                            <li class="hello nav-item me-lg-3">
                                 <a class="nav-link text-dark" aria-current="page" href="#">Uvod</a>
                             </li>
-                            <li class="nav-item dropdown me-lg-3">
+                            <li class="hel nav-item dropdown me-lg-3">
                                 <a class="nav-link dropdown-toggle text-dark" href="#" role="button"
                                     data-bs-toggle="dropdown" aria-expanded="false">
                                     Openlab
@@ -60,28 +73,30 @@
                             </li>
                         </ul>
 
-                        <button type="button" class="btn btn-primary me-5"
-                            style="--bs-btn-padding-y: .7rem; --bs-btn-padding-x: 1rem; --bs-btn-font-size: 1rem;">Pridajte
-                            sa k nam</button>
+                        <button type="button" class="cta btn btn-primary me-5">Pridajte sa k nam</button>
                     </div>
                 </div>
             </div>
         </nav>
     </header>
 
-    <section class="hero bg-primary">
-        <div class="container d-flex align-items-center">
-            <div class="hero-text text-light col-lg-5 my-md-5 py-5">
-                <h1 class="hero-header">Inštitút stredoškolského odborného vzdelávania
+    <section class="hero bg-mine">
+        <div class="container d-flex align-items-center ">
+            <div class="hero-text text-light col-lg-5 my-md-5 py-5 me-5">
+                <h1 class="hero-header mb-4">Inštitút stredoškolského odborného vzdelávania
                     <strong>zameraný na IT & AI</strong>
                 </h1>
-                <p class="hero-sub">
+                <p class="hero-sub fw-semibold">
                     Realizujeme odborné vzdelávanie zamerané na IT pre štátne školy ako nový štandard formálneho
                     vzdelávania
                 </p>
             </div>
-            <img src="https://openlab.sk/wp-content/themes/wp-bootstrap-starter/assets/images/main-home.png"
-                alt="openalab hero image" class="hero-image">
+            <div class="d-none d-lg-block">
+
+                <img src="https://openlab.sk/wp-content/themes/wp-bootstrap-starter/assets/images/main-home.png"
+                    alt="openalab hero image" class="hero-image ms-5">
+
+            </div>
         </div>
     </section>
 
