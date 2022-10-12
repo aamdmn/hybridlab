@@ -1,17 +1,98 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
+
 *{
     font-family: 'Open Sans', sans-serif;
     margin: 0;
     padding: 0;
 }
 
+/* 
+** Header 
+*/
+
+.discord-header {
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem;
+    border-bottom: 1px solid rgb(222, 222, 222);
+    margin-left: 8rem;
+    margin-right: 8rem;
+    margin-bottom: 1rem;
+}
+
+.discord-header p {
+    font-size: .8rem;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+    margin-right: 3rem;
+    margin-top: 0.5rem;
+}
+
+.discord-header a {
+    color: #989ca2;
+    text-decoration: none;
+    padding: .5rem 1rem;
+    background: rgba(152, 156, 162, 0.15);
+    border-radius: 16px;
+    font-size: .8rem;
+    text-transform: uppercase;
+    transition: 0.2s;
+}
+
+.discord-header a:hover{
+    color: #000;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: .9rem;
+    padding: 0 1rem;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.chevron-down {
+    height: 10px;
+}
+
+.nav-con {
+    display: flex;
+}
+
+.openlab-logo{
+    max-height: 30px;
+}
+
+.cta {
+    text-decoration: none;
+    color: #fff;
+    background: #3597ff;
+    border-radius: 5px;
+    padding: .8rem 1rem;
+}  
+
+/* 
+** Hero 
+*/
+
 .main {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 5rem;
     padding-top: 2rem;
     background: #3597ff;
     color: #fff;
@@ -50,6 +131,10 @@
 .thin {
     font-weight: 300;
 }
+
+/* 
+** Preco openlab 
+*/
 
 .why_openlab{
     margin-top: 10rem;
@@ -100,6 +185,11 @@
     color: #566b8d;
     font-size: .9rem;
 }
+
+
+/* 
+** Vizia 
+*/
 
 .vizia {
     margin-top: 10rem;
