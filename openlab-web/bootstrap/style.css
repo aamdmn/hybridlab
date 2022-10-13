@@ -1,11 +1,12 @@
-.bg-mine {
-    background-color: #3597FF;
+
+:root {
+    --primary: #3597FF;
 }
 
-.nav-item a {
-    font-weight: 600;
-    font-size: 15px;
+.bg-mine {
+    background-color: var(--primary);
 }
+
 
 .hero-image {
     height: 420px;
@@ -31,13 +32,55 @@
     --bs-btn-padding-y: .7rem;
     --bs-btn-padding-x: 1rem;
     --bs-btn-font-size: 1rem;
-    --bs-btn-bg: #3597FF;
-    --bs-btn-border-color: #3597FF;
-    --bs-btn-hover-bg: #3597FF;
-    --bs-btn-hover-border-color: #3597FF;
+    --bs-btn-bg: var(--primary);
+    --bs-btn-border-color: var(--primary);
+    --bs-btn-hover-bg: var(--primary);
+    --bs-btn-hover-border-color: var(--primary);
 }
 
 .dropdown-menu {
-    --bs-dropdown-link-hover-color: #3597FF;
+    --bs-dropdown-link-hover-color: var(--primary);
     --bs-dropdown-link-hover-bg: #fff;
+}
+
+
+.aside {
+    position: absolute;
+    inset: 40% 0 0 85%;
+    overflow-x: hidden;
+    height: 100%;
+}
+
+.o_letter {
+    height: 485px;
+}
+
+#vision .item {
+    width: 230px;
+    height: 180px;
+    border-radius: 4px;
+}
+
+#vision .item:nth-child(1) {
+    color: #5b94d7;
+    background-color: rgba(221, 236, 251, 0.4);
+}
+#vision .item:nth-child(2) {
+    color: #5cc19a;
+    background-color: rgba(156, 238, 204, 0.4);
+}
+#vision .item:nth-child(3) {
+    color: #dbca68;
+    background-color: rgba(238, 226, 156, 0.4);
+}
+#vision .item:nth-child(4) {
+    color: #b95e73;
+    background-color: rgba(238, 156, 156, 0.4);
+}
+
+#vision .item .count {
+    font-size: 90px;
+}
+#vision .item .type {
+    font-size: 18px;
 }
