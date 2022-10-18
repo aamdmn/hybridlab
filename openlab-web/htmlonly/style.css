@@ -550,5 +550,12 @@ h2 {
     margin-top: 3rem;
 }
 
+.little-line {
+    width: 50px;
+    height: 1px;
+    background-color: #fff;
+    margin-top: 1rem;
+}
+
 
 
