@@ -680,3 +680,88 @@ h2 {
     color: #566b8d;
     line-height: 1.5;
 }
+
+.team-heading {
+    display: flex;
+    justify-content: center;
+    margin: 5rem 0;    
+}
+
+.team-members {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    max-width: 82%;
+    margin: 0 auto;
+}
+
+
+.team-member img {
+    max-height: 350px;
+    border-radius: 6px;
+}
+
+
+.member-description {
+    font-size: 0.875rem;
+    color: #566b8d;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    margin-top: 0.5rem;
+}
+
+.member-name {
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.member-position {
+    color: #566b8d;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+/*
+** Support us
+*/
+
+.support-us {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+}
+
+.ptp img {
+    max-height: 450px;
+}
+
+.support-text {
+    max-width: 650px;
+    margin-left: 2rem;
+}
+
+.support-text h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.support-text p {
+    font-weight: 500;
+    color: #566b8d;
+    line-height: 1.5;
+    margin-bottom: 2.5rem;
+}
+
+.support-text a {
+    text-decoration: none;
+    color: #3597ff;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+
+.support-text a img {
+    margin-left: 10px;
+}
