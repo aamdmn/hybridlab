@@ -765,3 +765,100 @@ h2 {
 .support-text a img {
     margin-left: 10px;
 }
+
+/*
+** Behind us
+*/
+
+.behind-us {
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    margin-top: 7rem;
+}
+
+.behind-title {
+    font-size: 2.5rem;
+    margin-left: 8rem;
+    margin-right: 10rem;
+}
+
+.logos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+
+.logos img {
+    margin: 0 .5rem;
+}
+
+/*
+** Ig feed 
+*/
+
+.ig-feed {
+    display: flex;
+    width: 100%;
+    margin-top: 10rem;
+}
+
+.ig-feed img {
+    max-height: 256px;
+}
+
+/*
+** Podcast
+*/
+
+.podcast {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+}
+
+.moderna-firma{
+    max-height: 350px;
+}
+
+.podcast a {
+    text-decoration: none;
+}
+
+.podcast-text {
+    max-width: 650px;
+    margin-right: 7rem;
+}
+
+.podcast-text h2 {
+    margin-bottom: 1rem;
+}
+
+.podcast-sub {
+    font-weight: 500;
+    color: #566b8d;
+    line-height: 1.5;
+    margin-bottom: 2.5rem;
+    width: 550px;
+}
+
+.podcast-icons a img  {
+    padding: .5rem;
+    padding-top: 0;
+    margin-bottom: 2rem;
+}
+
+.podcast-icons a img:first-child {
+    padding-left: 0;
+}
+
+.podcast-cta {
+    padding: 1.2rem 3rem;
+    background-color: #3597ff;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 6px;
+    font-size: 0.9rem;
+}
