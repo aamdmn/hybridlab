@@ -862,3 +862,65 @@ h2 {
     border-radius: 6px;
     font-size: 0.9rem;
 }
+
+/*
+** Thanks
+*/
+
+.thanks{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10rem;
+}
+
+.thanks-text {
+    margin-bottom: 4rem;
+}
+
+.sponsors {
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    /* gap: 3.5rem; */
+}
+
+.sponsors img {
+    margin: 1rem 2.5rem;
+}
+
+/*
+** Newsletter
+*/
+
+footer {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.newsletter {
+    display: flex;
+    justify-content: space-between;
+    width: 82%;
+    background-color: #d7eaff;
+    padding: 3rem 2rem;
+    border-radius: 6px;
+}
+
+.newsletter h3 {
+    margin-left: 3.5rem;
+}
+
+.newsletter input {
+    width: 45%;
+    border: 0;
+    height: 40px;
+    padding: 0 1rem;
+    color: #050505;
+    font-weight: 600;
+    border-radius: 6px;
+}
