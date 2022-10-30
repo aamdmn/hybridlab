@@ -857,8 +857,8 @@ footer {
     color: #566b8d;
     font-size: .75rem;
     letter-spacing: 0.6px;
-    margin-left: 4rem;
-    margin-right: 8rem;
+    margin-left: 1rem;
+    margin-right: 2rem;
 }
 
 .footer-socials a{
@@ -866,11 +866,14 @@ footer {
 }
 
 .footer-socials img{
-    margin-right: .5rem;
     height: 20px;
     margin-top: 1rem;
-    margin-right: 1.5rem;
+    margin-left: .5rem;
 }
+.footer-socials{
+    margin-right: 2rem;
+}
+
 
 .block-bottom {
     position: relative;
