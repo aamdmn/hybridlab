@@ -1,7 +1,3 @@
-/* 
-** Header 
-*/
-
 .discord-header {
     padding: 0.5rem;
     border-bottom: 1px solid rgb(222, 222, 222);
@@ -44,8 +40,6 @@
 }
 
 .nav-link {
-    display: flex;
-    justify-content: center;
     text-decoration: none;
     font-size: .9rem;
     cursor: pointer;
@@ -71,10 +65,6 @@
     border-radius: 5px;
     padding: .8rem 1rem;
 }  
-
-/* 
-** Hero 
-*/
 
 .main {
     width: 100%;
@@ -113,10 +103,6 @@
     height: 485px;
 }
 
-/* 
-** Preco openlab 
-*/
-
 .why_openlab{
     margin-top: 10rem;
     background: #fff;
@@ -126,7 +112,6 @@
     flex-direction: column;
 }
 
-
 .why_subtext{
     margin-top: 2rem;
     max-width: 1200px;
@@ -134,8 +119,6 @@
     text-align: center;
     color: #566b8d;
 }
-
-
 
 .why_items {
     background: #fff;
@@ -156,11 +139,6 @@
     color: #566b8d;
     font-size: .9rem;
 }
-
-
-/* 
-** Vizia 
-*/
 
 .vision {
     margin-top: 10rem;
@@ -237,10 +215,6 @@
     background-color: rgba(238, 156, 156, 0.4);
 }
 
-/*
-** Labs
-*/
-
 .lab-items a {
     text-decoration: none;
     color: #000;
@@ -277,10 +251,6 @@
     position: absolute;
     bottom: 40px;
 }
-
-/*
-** Schools
-*/
 
 .based-text {
     margin-top: 10rem;
@@ -326,10 +296,6 @@
 .p-letter  img{
     height: 600px;
 }
-
-/*
-** Want
-*/
 
 .want {
     margin-top: 10rem;
@@ -378,10 +344,6 @@
     text-decoration: none;
 }
 
-/*
-** Join
-*/
-
 .join-text {
     margin: 7rem 0 5rem 0;
 }
@@ -411,10 +373,6 @@
     position: absolute;
     bottom: 50px;
 }
-
-/*
-** Carousel
-*/
 
 .carousel {
     position: relative;
@@ -451,10 +409,6 @@
 .carousel-imgs img {
     max-height: 500px;
 }
-
-/*
-** Projects
-*/
 
 .projects-section {
     margin-top: 10rem;
@@ -569,10 +523,6 @@
     right: 25%;
 }
 
-/*
-** Special
-*/
-
 .why-so-special {
     margin-top: 10rem;
 }
@@ -600,8 +550,6 @@
 }
 
 .team-heading {
-    display: flex;
-    justify-content: center;
     margin: 5rem 0;    
 }
 
@@ -639,14 +587,7 @@
     font-size: 1rem;
 }
 
-/*
-** Support us
-*/
-
 .support-us {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     margin-top: 10rem;
 }
 
@@ -672,24 +613,17 @@
     margin-bottom: 2.5rem;
 }
 
-.support-text a {
+.support-cta {
     text-decoration: none;
     color: #3597ff;
     font-weight: 500;
-    display: flex;
-    align-items: center;
 }
 
 .support-text a img {
     margin-left: 10px;
 }
 
-/*
-** Behind us
-*/
-
 .behind-us {
-    display: flex;
     margin-top: 7rem;
 }
 
@@ -709,12 +643,7 @@
     margin: 0 .5rem;
 }
 
-/*
-** Ig feed 
-*/
-
 .ig-feed {
-    display: flex;
     width: 100%;
     margin-top: 10rem;
 }
@@ -723,14 +652,7 @@
     max-height: 256px;
 }
 
-/*
-** Podcast
-*/
-
 .podcast {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     margin-top: 10rem;
     margin-bottom: 5rem;
 }
@@ -779,15 +701,8 @@
     font-size: 0.9rem;
 }
 
-/*
-** Thanks
-*/
-
 .thanks{
-    display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
     margin-top: 10rem;
 }
 
@@ -799,16 +714,11 @@
     margin-top: 5rem;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    /* gap: 3.5rem; */
 }
 
 .sponsors img {
     margin: 1rem 2.5rem;
 }
-
-/*
-** Newsletter
-*/
 
 footer {
     margin-top: 5rem;
@@ -816,7 +726,6 @@ footer {
 }
 
 .newsletter {
-    display: flex;
     justify-content: space-between;
     width: 82%;
     background-color: #d7eaff;
@@ -863,6 +772,7 @@ footer {
 
 .footer-socials a{
     margin: 0;
+    text-decoration: none;
 }
 
 .footer-socials img{
