@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulacka</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main>
+        <h1>Kalkulacka</h1>
+
+        <div class="cal">
+            <div class="inputs">
+                <input type="number" id="a" placeholder="Zadej cislo A">
+                <input type="number" id="b" placeholder="Zadej cislo B">
+            </div>
+            <button onclick="Scitanie()">+</button>
+            <button onclick="Odcitanie()">-</button>
+            <button onclick="Nasobenie()">*</button>
+            <button onclick="Delenie()">/</button>
+        </div>
+
+        <div>
+            <p id="result"></p>
+        </div>
+    </main>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>

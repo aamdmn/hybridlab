@@ -93,10 +93,7 @@
 }
 
 .aside {
-    position: absolute;
     inset: 40% 0 0 85%;
-    overflow-x: hidden;
-    height: 100%;
 }
 
 .o_letter {
@@ -286,11 +283,7 @@
 
 .p-letter {
     top: 500px;
-    position: absolute;
     inset: 340% 0 0 86%;
-    overflow-x: hidden;
-    height: 100%;
-
 }
 
 .p-letter  img{
@@ -503,10 +496,7 @@
 }
 
 .project-aside {
-    position: absolute;
     inset: 85% 0 0 -15%;
-    overflow-x: hidden;
-    height: 100%;
     z-index: -1;
 }
 
