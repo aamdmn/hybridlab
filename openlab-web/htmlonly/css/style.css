@@ -701,13 +701,11 @@
 }
 
 .sponsors {
-    margin-top: 5rem;
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    margin-top: 3rem;
 }
 
-.sponsors img {
-    /* margin: 1rem 2.5rem; */
+.sponsor {
+    margin: 1rem 2.5rem;
     height: 60px;
 }
 
