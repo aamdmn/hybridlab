@@ -283,7 +283,7 @@
 
 .p-letter {
     top: 500px;
-    inset: 340% 0 0 86%;
+    inset: 340% 0 0 85%;
 }
 
 .p-letter  img{
@@ -620,17 +620,11 @@
 .behind-title {
     font-size: 2.5rem;
     margin-left: 8rem;
-    margin-right: 10rem;
-}
-
-.logos {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1.5rem;
+    min-width: 400px;
 }
 
 .logos img {
-    margin: 0 .5rem;
+    margin: 1.5rem;
 }
 
 .ig-feed {
