@@ -20,7 +20,7 @@
     text-decoration: none;
     padding: .5rem 1rem;
     background: rgba(152, 156, 162, 0.15);
-    border-radius: 16px;
+    border-radius: 1rem;
     font-size: .8rem;
     text-transform: uppercase;
     transition: 0.2s;
@@ -43,18 +43,18 @@
     text-decoration: none;
     font-size: .9rem;
     cursor: pointer;
-    min-width: 105px;
+    min-width: 6.563rem;
     font-weight: 600;
     transition: all 0.3s ease;
 }
 
 .chevron-down {
-    height: 10px;
-    padding-left: 5px;
+    height: .625rem;
+    padding-left: 0.313rem;
 }
 
 .openlab-logo{
-    max-height: 40px;
+    max-height: 2.5rem;
     margin-right: 2rem;
 }
 
@@ -62,7 +62,7 @@
     text-decoration: none;
     color: #fff;
     background: #3597ff;
-    border-radius: 5px;
+    border-radius: 0.313rem;
     padding: .8rem 1rem;
 }  
 
@@ -74,7 +74,7 @@
 }
 
 .text {
-     max-width: 526px;
+     max-width: 32.875rem;
      margin-right: 6rem;
 }
 
@@ -88,7 +88,7 @@
 }
 
 .main-img {
-    max-height: 418px;
+    max-height: 26.125rem;
     margin-right: 2.5rem;
 }
 
@@ -97,7 +97,7 @@
 }
 
 .o_letter {
-    height: 485px;
+    height: 30.313rem;
 }
 
 .why_openlab{
@@ -111,7 +111,7 @@
 
 .why_subtext{
     margin-top: 2rem;
-    max-width: 1200px;
+    max-width: 75rem;
     font-size: 1rem;
     text-align: center;
     color: #566b8d;
@@ -123,8 +123,8 @@
 }
 
 .why_item {
-    width: 300px;
-    height: 150px;
+    width: 18.75rem;
+    height: 9.375rem;
     margin: 1rem;
 }
 
@@ -166,8 +166,8 @@
 }
 
 .features div {
-    width: 230px;
-    height: 180px;
+    width: 14.375rem;
+    height: 11.25rem;
     margin: 1rem;
     border-radius: 5px;
     text-align: end;
@@ -224,8 +224,8 @@
 }
 
 .lab {
-    width: 230px;
-    height: 200px;
+    width: 14.375rem;
+    height: 12.5rem;
     padding: 2rem;
     margin-top: 1rem;
     position: relative;
@@ -239,14 +239,14 @@
 .lab p {
     font-size: .85rem;
     color: #566b8d;
-    max-width: 178px;
+    max-width: 11.125rem;
     font-weight: 500;
     line-height: 1.5;
 }
 
 .lab img {
     position: absolute;
-    bottom: 40px;
+    bottom: 2.5rem;
 }
 
 .based-text {
@@ -259,7 +259,7 @@
 }
 
 .based-img {
-    height: 250px;
+    height: 15.625rem;
 }
 
 .based-card p {
@@ -282,12 +282,12 @@
 }
 
 .p-letter {
-    top: 500px;
+    top: 31.25rem;
     inset: 340% 0 0 85%;
 }
 
 .p-letter  img{
-    height: 600px;
+    height: 37.5rem;
 }
 
 .want {
@@ -295,13 +295,13 @@
 }
 
 .want-img {
-    height: 600px;
+    height: 37.5rem;
 }
 
 .want-text {
     flex-direction: column;
     margin-left: 7rem;
-    max-width: 550px;
+    max-width: 34.375rem;
     position: relative;
 }
 
@@ -312,7 +312,7 @@
 .want-behind {
     position: absolute;
     color: rgba(209, 220, 231, 0.45);
-    top: 132px;
+    top: 7.813rem;
     font-size: 4rem;
 }
 
@@ -342,8 +342,8 @@
 }
 
 .join-item {
-    width: 250px;
-    height: 200px;
+    width: 15.625rem;
+    height: 12.5rem;
     padding: 2rem;
     margin-top: 1rem;
     position: relative;
@@ -364,7 +364,7 @@
 
 .join-item img {
     position: absolute;
-    bottom: 50px;
+    bottom: 3.125rem;
 }
 
 .carousel {
@@ -374,14 +374,14 @@
 
 .carousel-card{
     position: absolute;
-    max-width: 525px;
-    height: 420px;
+    max-width: 32.813rem;
+    height: 26.25rem;
     background-color: #A54FA2;
     border-radius: 6px;
     bottom: 15%;
     left: 9%;
     color: #fff;
-    padding: 40px 32px;
+    padding: 2.5rem 2rem;
 }
 
 .carousel-card p {
@@ -400,7 +400,7 @@
 }
 
 .carousel-imgs img {
-    max-height: 500px;
+    max-height: 31.25rem;
 }
 
 .projects-section {
@@ -426,26 +426,26 @@
 }
 
 .little-line {
-    width: 50px;
+    width: 3.125rem;
     height: 1px;
     background-color: #fff;
     margin-top: 1rem;
 }
 
 .jacob {
-    max-height: 360px;
+    max-height: 22.5rem;
     border-radius: 12px;
     margin-top: 3rem;
 }
 
 .project-description {
-    max-width: 700px;
+    max-width: 43.75rem;
     margin-right: 8rem;
 }
 
 .project-description p {
     font-weight: 500;
-    max-width: 450px;
+    max-width: 28.125rem;
     margin-top: 1.5rem;
     color: #566b8d;
     margin-bottom: 1.5rem;
@@ -463,7 +463,7 @@
 }
 
 .little-line-black {
-    width: 50px;
+    width: 3.125rem;
     height: 1px;
     background-color: #000;
     margin-top: 2rem;
@@ -492,7 +492,7 @@
 }
 
 .projects-cta img {
-    padding-left: 10px;
+    padding-left: .625rem;
 }
 
 .project-aside {
@@ -501,13 +501,13 @@
 }
 
 .project-aside img {
-    height: 450px;
+    height: 28.125rem;
 }
 
 .play-button {
     position: absolute;
     overflow-x: hidden;
-    height: 70px;
+    height: 4.375rem;
     z-index: 1;
     top: 55%;
     right: 25%;
@@ -553,7 +553,7 @@
 
 
 .team-member img {
-    max-height: 350px;
+    max-height: 21.875rem;
     border-radius: 6px;
 }
 
@@ -582,11 +582,11 @@
 }
 
 .ptp img {
-    max-height: 450px;
+    max-height: 28.125rem;
 }
 
 .support-text {
-    max-width: 650px;
+    max-width: 40.625rem;
     margin-left: 2rem;
 }
 
@@ -610,7 +610,7 @@
 }
 
 .support-text a img {
-    margin-left: 10px;
+    margin-left: .625rem;
 }
 
 .behind-us {
@@ -620,7 +620,7 @@
 .behind-title {
     font-size: 2.5rem;
     margin-left: 8rem;
-    min-width: 400px;
+    min-width: 25rem;
 }
 
 .logos img {
@@ -633,7 +633,7 @@
 }
 
 .ig-feed img {
-    max-height: 256px;
+    max-height: 16rem;
 }
 
 .podcast {
@@ -642,7 +642,7 @@
 }
 
 .moderna-firma{
-    max-height: 350px;
+    max-height: 21.875rem;
 }
 
 .podcast a {
@@ -650,7 +650,7 @@
 }
 
 .podcast-text {
-    max-width: 650px;
+    max-width: 40.625rem;
     margin-right: 7rem;
 }
 
@@ -663,7 +663,7 @@
     color: #566b8d;
     line-height: 1.5;
     margin-bottom: 2.5rem;
-    width: 550px;
+    width: 34.375rem;
 }
 
 .podcast-icons a img  {
@@ -700,7 +700,7 @@
 
 .sponsor {
     margin: 1rem 2.5rem;
-    height: 60px;
+    height: 3.75rem;
 }
 
 footer {
@@ -723,7 +723,7 @@ footer {
 .newsletter input {
     width: 45%;
     border: 0;
-    height: 40px;
+    height: 2.5rem;
     padding: 0 1rem;
     color: #050505;
     font-weight: 600;
@@ -759,7 +759,7 @@ footer {
 }
 
 .footer-socials img{
-    height: 20px;
+    height: 1.25rem;
     margin-top: 1rem;
     margin-left: .5rem;
 }
