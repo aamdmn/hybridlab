@@ -1,6 +1,6 @@
 .discord-header {
     padding: 0.5rem;
-    border-bottom: 1px solid rgb(222, 222, 222);
+    border-bottom: 1px solid #dedede;
     margin-left: 8rem;
     margin-right: 8rem;
     margin-bottom: 1rem;
@@ -19,7 +19,7 @@
     color: #989ca2;
     text-decoration: none;
     padding: .5rem 1rem;
-    background: rgba(152, 156, 162, 0.15);
+    background: #989ca226;
     border-radius: 1rem;
     font-size: .8rem;
     text-transform: uppercase;
@@ -197,19 +197,19 @@
 
 .feature-1 {
     color: #5b94d7;
-    background-color: rgba(221, 236, 251, 0.4);
+    background-color: #ddecfb66;
 }
 .feature-2 {
     color: #5cc19a;
-    background-color: rgba(156, 238, 204, 0.4);
+    background-color: #9ceecc66;
 }
 .feature-3 {
     color: #dbca68;
-    background-color: rgba(238, 226, 156, 0.4);
+    background-color: #eee29c66;
 }
 .feature-4 {
     color: #b95e73;
-    background-color: rgba(238, 156, 156, 0.4);
+    background-color: #ee9c9c66;
 }
 
 .lab-items a {
@@ -311,7 +311,7 @@
 
 .want-behind {
     position: absolute;
-    color: rgba(209, 220, 231, 0.45);
+    color: #d1dce773;
     top: 7.813rem;
     font-size: 4rem;
 }
