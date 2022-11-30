@@ -37,6 +37,11 @@ textarea {
     color: #666;
 }
 
+input[type="radio"],
+input[type="checkbox"] {
+    margin: 20px 10px 20px 0;
+}
+
 input[type="submit"] {
     width: 100%;
     padding: 10px;
@@ -56,3 +61,5 @@ input[type="submit"]:hover {
 textarea {
     height: 150px;
 }
+
+
