@@ -791,3 +791,11 @@ footer {
     right: 0;
     bottom: 0;    
 }
+
+.shadow {
+    transition: .3s;
+}
+
+.shadow:hover {
+    box-shadow: 0 0 10px rgba(0,0,0,0.13);
+}
